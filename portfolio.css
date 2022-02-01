@@ -32,7 +32,7 @@ h3.b {
 }
 h4 {
     font-family: 'Montserrat', sans-serif;
-    color: #f56c28;
+    color: #40a593;
     text-align: center;
 }
 
@@ -43,13 +43,13 @@ img {
   margin-bottom: 100px;
 }
 
-#heading1, #heading2, {
+/*#heading1, #heading2, {
   background-color: #fc9627;
   font-family: 'Montserrat', sans-serif;
    border-radius: 25px;
    padding: 10px;
    color: #B46E90;
-}
+}*/
 
 #look {
   color: #004f63;
@@ -67,9 +67,9 @@ img {
   text-align: center;
 }
 
-#list1, #list2 {
+#heading1 {
    background-color: #ecdac6;
-   color: #B46E90;
+   color: #007890;
    border-radius: 25px;
    padding: 10px;
    line-height: 1.8;
