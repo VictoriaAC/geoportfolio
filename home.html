@@ -13,7 +13,7 @@
      // wait for the page to load before running the javascript
      $(document).ready( function() {
        // Create variable to hold map element, give initial settings to map
-       var map = L.map('map',{ center: [39.743218, -105.004568], zoom: 10});
+       var map = L.map('map',{ center: [39.743218, -105.004568], zoom: 12});
        var defaultBase = L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png',
                          { attribution: '© OpenStreetMap' }).addTo(map);
         var myDataPoint1 = L.marker([39.739152, -104.988728]).addTo(map);
