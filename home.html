@@ -13,12 +13,15 @@
      // wait for the page to load before running the javascript
      $(document).ready( function() {
        // Create variable to hold map element, give initial settings to map
-       var map = L.map('map',{ center: [39.743218, -105.004568], zoom: 15});
+       var map = L.map('map',{ center: [39.743218, -105.004568], zoom: 10});
        var defaultBase = L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png',
                          { attribution: '© OpenStreetMap' }).addTo(map);
-       var myDataPoint1 = L.marker([39.739152, -104.988728]).addTo(map);
+        var myDataPoint1 = L.marker([39.739152, -104.988728]).addTo(map);
         var myDataPoint2 = L.marker([39.733604, -104.966412]).addTo(map);
         var myDataPoint3 = L.marker([39.752273, -105.004206]).addTo(map);
+        var myDataPoint4 = L.marker([39.743251, -105.002786]).addTo(map);
+        var myDataPoint5 = L.marker([39.732555, -104.96035]).addTo(map);
+        var myDataPoint6 = L.marker([39.759423, -104.984604]).addTo(map);
        //var myArea = L.polygon([[39.740652, -105.010233], [39.743218, -105.011864],
                           //  [39.748473, -105.002487], [39.740283, -104.999037]],
                               //  {color: 'blue', weight: 2}).addTo(map);
@@ -31,7 +34,9 @@
       myDataPoint1.bindPopup ("<h3>Denver Capitol</h3>");
       myDataPoint2.bindPopup ("<h3>Cheeseman Park</h3>");
       myDataPoint3.bindPopup ("<h3>Museum of Contemporary Art Denver</h3>");
-
+      myDataPoint4.bindPopup ("<h3>Auraria Campus Library</h3>");
+      myDataPoint5.bindPopup ("<h3>Copper Door Coffee</h3>");
+      myDataPoint6.bindPopup ("<h3>Denver Central Market</h3>");
 
        //lat/long on mouse click
        var popup = L.popup();
@@ -92,8 +97,16 @@
 <body>
 
   <div id="Title"><h1>Alex Coles</h1></div>
+  <div id="nav">
+    <li class="active-link">
+
+                <a href="workexamples.html">Work Examples</a>
+
+
+          </li>
+  </div>
   <div id="heading1">
-    <p>Hello, thanks for stopping by!</p>
+    <p>Thanks for stopping by!</p>
               <p>My name is Alex.
                 I was born in the Mile High City - Denver, Colorado and have lived here
                 for most of my life. I love to call this city home! I graduated in 2019 from Metropolitan State
@@ -101,9 +114,10 @@
                  a B.S. in Geospatial Science. Growing up, my dad had an obession with antique maps,
                  and he taught me all about the cartographic techniques that woud be used at the time.
                  I am looking for career opportunities that align with my personal _______. </p>
+                 <h4>Click <a href = "workexamples.html">here</a> to see examples of my GIS work.</h4>
   </div> <!-- end of heading1 -->
 
-    <div id="maptitle"><h1>Denver, Colorado</h1></div>
+    <div id="maptitle"><h2>My Favorite Parts of Denver</h2></div>
     <div id="map"></div>
 
     <div id="list1">
