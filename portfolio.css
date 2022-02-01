@@ -55,6 +55,11 @@ img {
   text-align: center;
 }
 
+#nav {
+  color: #004f63;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #list1, #list2, #heading1, #heading2 {
    background-color: #ecdac6;
