@@ -38,13 +38,14 @@ img {
   margin-bottom: 100px;
 }
 
-#heading1, #heading2, {
+/*#heading1, #heading2, {
   background-color: #f56c28;
   font-family: 'Montserrat', sans-serif;
    border-radius: 25px;
    padding: 10px;
    color: #B46E90;
-}
+}*/
+
 #look {
   color: #004f63;
   font-family: 'Montserrat', sans-serif;
@@ -55,7 +56,7 @@ img {
 }
 
 
-#list1, #list2 {
+#list1, #list2, #heading1, #heading2 {
    background-color: #ecdac6;
    color: #B46E90;
    border-radius: 25px;
