@@ -86,6 +86,7 @@ h4 {
   color: inherit;
   text-align: left;
   background-color: #ecdac6;
+  border-radius: 25px;
 }
 
   #map {margin-bottom: 200px;}
